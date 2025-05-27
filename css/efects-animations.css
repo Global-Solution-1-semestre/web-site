@@ -1,0 +1,26 @@
+.button:hover {
+    background-color: var(--bg-hover-button);
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #283c82;
+    transform: translateY(1px);
+    color: var(--font-color-active);
+}
+
+.sos-button:hover{
+    background-color: var(--bg-hover-sos-button);
+}
+
+.sos-button:active{
+    background-color: var(--bg-active-sos-button)
+}
+
+.create-alert-button:hover{
+    background-color: var(--bg-hover-cr-alert-button);
+}
+
+.create-alert-button:active{
+    background-color: var(--bg-active-cr-alert-button)
+}

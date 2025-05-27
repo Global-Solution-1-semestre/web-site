@@ -1,0 +1,41 @@
+:root{
+    --primary-color: #5E4EF5;
+    --secondary-color: #4EA7F5;
+    --third-color: #4E73F5;
+    --font-color: #d0d0d0;
+    --font-color-active: #b6b6a2;
+    --bg-button: var(--third-color);
+    --bg-hover-button: var(--third-color);
+    --bg-sos-button:rgb(247, 61, 61);
+    --bg-hover-sos-button:rgb(251, 109, 109);
+    --bg-active-sos-button: rgb(98, 35, 35);
+    --bg-cr-alert-button: rgb(49, 142, 49);
+    --bg-hover-cr-alert-button: rgb(59, 220, 59);
+    --bg-active-cr-alert-button: rgb(34, 96, 34);
+}
+
+.button {
+    background-color: var(--bg-button);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 50px;
+}
+
+.sos-button{
+    background-color: var(--bg-sos-button);
+}
+
+.create-alert-button{
+    background-color: var(--bg-cr-alert-button);
+}
+
+.search-bar{
+    display: flex;
+    width: 250px;
+    height: 20px;
+}
