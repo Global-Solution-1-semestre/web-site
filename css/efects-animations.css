@@ -1,12 +1,12 @@
 .button:hover {
     background-color: var(--bg-hover-button);
-    transform: scale(1.05);
 }
 
 .button:active {
     background-color: #283c82;
     transform: translateY(1px);
     color: var(--font-color-active);
+    transform: scale(0.90);
 }
 
 .sos-button:hover{
