@@ -1,0 +1,94 @@
+### **Quiz: Enchentes e Chuvas - Aspectos Técnicos**
+
+**1. O que caracteriza uma chuva como "torrencial"?**
+a) Duração de mais de 3 horas
+b) Precipitação superior a 50 mm/hora
+c) Ocorrência durante o verão
+d) Precipitação inferior a 10 mm/hora
+**Resposta correta:** b) Precipitação superior a 50 mm/hora
+
+---
+
+**2. Qual é a principal causa das enchentes urbanas?**
+a) Alta umidade relativa do ar
+b) Obstrução dos rios por represas
+c) Impermeabilização do solo e drenagem ineficiente
+d) Elevada evapotranspiração
+**Resposta correta:** c) Impermeabilização do solo e drenagem ineficiente
+
+---
+
+**3. O que significa "tempo de recorrência" em eventos de chuva?**
+a) A frequência com que chove em uma semana
+b) A duração da chuva em uma região
+c) O intervalo estatístico entre eventos extremos similares
+d) A velocidade com que a água escoa
+**Resposta correta:** c) O intervalo estatístico entre eventos extremos similares
+
+---
+
+**4. Qual instrumento meteorológico é utilizado para medir a precipitação?**
+a) Barômetro
+b) Higrômetro
+c) Anemômetro
+d) Pluviômetro
+**Resposta correta:** d) Pluviômetro
+
+---
+
+**5. Qual é a relação entre o fenômeno El Niño e chuvas intensas no sul do Brasil?**
+a) El Niño diminui a temperatura e reduz chuvas
+b) El Niño provoca chuvas mais intensas e frequentes no sul
+c) El Niño reduz as chuvas em todo o Brasil
+d) El Niño não tem relação com o regime de chuvas
+**Resposta correta:** b) El Niño provoca chuvas mais intensas e frequentes no sul
+
+---
+
+**6. O que é uma “mancha de inundação”?**
+a) Área com acúmulo de sedimentos
+b) Área de maior cobertura vegetal
+c) Região potencialmente alagável em um mapa
+d) Mancha de óleo flutuando na água da enchente
+**Resposta correta:** c) Região potencialmente alagável em um mapa
+
+---
+
+**7. A cheia do Rio Amazonas é considerada:**
+a) Uma enchente urbana
+b) Uma inundação catastrófica anual
+c) Um evento natural previsível com padrões sazonais
+d) Um evento raro causado por ciclones
+**Resposta correta:** c) Um evento natural previsível com padrões sazonais
+
+---
+
+**8. Em sistemas de drenagem urbana, qual é a função das bocas de lobo?**
+a) Medir o volume de água
+b) Recolher a água da chuva das ruas e direcioná-la para galerias
+c) Filtrar a água antes de ir para o rio
+d) Conectar redes de esgoto às represas
+**Resposta correta:** b) Recolher a água da chuva das ruas e direcioná-la para galerias
+
+---
+
+**9. Qual destas estratégias é eficaz para mitigar enchentes urbanas?**
+a) Aumento do uso de asfalto
+b) Retirada de vegetação ribeirinha
+c) Construção de piscinões e áreas de infiltração
+d) Canalização total dos rios urbanos
+**Resposta correta:** c) Construção de piscinões e áreas de infiltração
+
+---
+
+**10. Segundo a Defesa Civil brasileira, o que deve ser feito antes de um evento de chuva intensa?**
+a) Abandonar imóveis preventivamente
+b) Subir em telhados
+c) Acompanhar alertas meteorológicos e planejar rotas de fuga
+d) Abrir as comportas de rios urbanos
+**Resposta correta:** c) Acompanhar alertas meteorológicos e planejar rotas de fuga
+
+---
+
+Se quiser, posso transformar este quiz em PDF, formulário interativo (ex: Google Forms), ou adicionar mais perguntas técnicas. Deseja isso?
+
