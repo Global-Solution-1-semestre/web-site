@@ -13,7 +13,8 @@
     --bg-cr-alert-button: rgb(49, 142, 49);
     --bg-hover-cr-alert-button: rgb(59, 220, 59);
     --bg-active-cr-alert-button: rgb(34, 96, 34);
-    --bg-search-bar: whitesmoke;
+    --bg-background-card: #f9f9f9;
+    --bg-search-bar: #f9f9f9;
 
     /* Variaveis */
     --border-radius: 8px;
@@ -29,6 +30,26 @@ html, body{
 span{
     font-weight: lighter;
     font-size: 12px;
+}
+
+.top-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar button{
+    margin: 0px 30px;
+}
+
+.button-icon{
+    width: min-content;
+    height: min-content;
+    background-color: var(--bg-background-card);
+    border: none;
 }
 
 .button {
@@ -97,16 +118,19 @@ span{
 }
 
 .type-alert{
+    background-color: var(--bg-background-card);
     width: 50px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 .card-donation {
-    width: 300px;
+    background-color: var(--bg-background-card);
+    width: 250px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -122,7 +146,6 @@ span{
 
 .donation-money {
     padding: 8px;
-    background-color: #f9f9f9;
 }
 
 .donation-money img{
@@ -130,12 +153,12 @@ span{
     padding: 4px;
 }
 
-.donation-money h2{
+.donation-money h1, h2, h3{
     font-weight: bold;
     margin: 8px 0px;
 }
 
-.donation-hero h3{
+.donation-hero h4{
     color: green;
     font-weight: lighter;
     margin: 8px 0px;
