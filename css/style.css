@@ -13,11 +13,17 @@
     --bg-cr-alert-button: rgb(49, 142, 49);
     --bg-hover-cr-alert-button: rgb(59, 220, 59);
     --bg-active-cr-alert-button: rgb(34, 96, 34);
-    --bg-card: #f9f9f9;
+    --bg-sub-button:rgb(173, 172, 172);
+    --bg-hover-sub-button:rgb(127, 127, 127);
+    --bg-active-sub-button: rgb(73, 73, 73);
+    --bg-card: #ffffff;
     --bg-search-bar: #f9f9f9;
     --bg-quiz : #EEE1E1;
+    --bg-line: black;
     /* Variaveis */
     --border-radius: 8px;
+    --margin-form: 16px 0px;
+    --box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 html, body{
@@ -27,9 +33,19 @@ html, body{
     padding: 0;
 }
 
+main{
+    display: block;
+    /* margin: 3% 0; */
+    padding: 2% 15%;
+}
+
 span{
     font-weight: lighter;
     font-size: 12px;
+}
+
+.line{
+    background-color: var(--bg-line);
 }
 
 .menu-bar-mobile{
@@ -38,7 +54,7 @@ span{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow:  var(--box-shadow);
 }
 
 .top-bar button{
@@ -70,7 +86,7 @@ span{
     height: auto;
     border-radius: 0px 12px 12px 0px;
     padding: 12px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow:  var(--box-shadow);
 }
 
 .glass-container{
@@ -85,13 +101,18 @@ span{
     border: none;
     border-radius: var(--border-radius);
     padding: 8px 35px;
-    margin: 12px;
+    margin: 12px 0;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.2s ease;
     min-width: 50px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow:  var(--box-shadow);
 }
+
+.sub-button{
+    background-color: var(--bg-sub-button);
+}
+
 
 .sos-button{
     background-color: var(--bg-sos-button);
@@ -121,7 +142,7 @@ span{
     top: 70px;
     right: 40px;
     width:120px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow:  var(--box-shadow);
     padding: 3px 10px 10px 3px;
     border-radius: 4px;
     transform: all 2s ease-out;
@@ -145,7 +166,7 @@ span{
     text-align: start;
     padding: 10px;
     margin: 3px;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     transition: all 0.4s ease-out;
 }
 
@@ -176,8 +197,8 @@ span{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    box-shadow:  var(--box-shadow);
+    border-radius: var(--border-radius);
 }
 
 .damage-card h3, p{
@@ -192,7 +213,7 @@ span{
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: var(--border-radius);
 }
 
 .card-donation {
@@ -201,7 +222,7 @@ span{
     margin: 10px;
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
@@ -216,7 +237,7 @@ span{
 }
 
 .donation-money img{
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     padding: 4px;
 }
 
@@ -251,4 +272,37 @@ span{
 .bg-red{
     background-color: rgb(169, 56, 56);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* quiz.html */
+.container-quiz-header{
+    display: block;
+    padding: 12px;
+    margin: var(--margin-form);
+    background-color: var(--bg-card);
+    border-top:var(--third-color) 10px solid;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-quiz{
+    display: block;
+    margin: 35px 0;
+}
+
+.container-question{
+    display: block;
+    padding: 12px;
+    margin: var(--margin-form);
+    background-color: var(--bg-card);
+    border-top:var(--secondary-color) 10px solid;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question-quiz{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8px;
 }

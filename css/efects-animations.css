@@ -24,3 +24,11 @@
 .create-alert-button:active{
     background-color: var(--bg-active-cr-alert-button)
 }
+
+.sub-button:hover{
+    background-color: var(--bg-hover-sub-button);
+}
+
+.sub-button:active{
+    background-color: var(--bg-active-sub-button)
+}
