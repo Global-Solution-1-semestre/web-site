@@ -283,12 +283,25 @@ span{
 
 /* landing page */
 
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/imgs/hero-bg-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 92.5vh;
+    color: white;
+}
+
 .flex-container-wrap{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 20px 0px;
 }
 
 .hero-main-container{
@@ -300,6 +313,30 @@ span{
 }
 
 .container-text-hero{
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text-hero h2{
+    width: 1250px;
+    text-align: center;
+}
+
+.blue-glass-container{
+    background: rgba(74, 158, 233, 0.7);
+    padding: 10px;
+    margin: 0px 25px;
+    border-radius: var(--border-radius);
+}
+
+.container-text-hero .button{
+    width: 250px;
+}
+
+.container-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,7 +344,7 @@ span{
     padding: 4em;
 }
 
-.container-text-hero p, h2{
+.container-text p, h2{
     width: 540px;
 }
 
