@@ -3,54 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/efects-animations.css">
     <title>tela 1</title>
 </head>
 <body>
     <header>
-        <nav class="top-bar">
-            <button class="3-bars" id="bars" type="button"><img src="" alt="" srcset=""></button>
-            <h1 class="App-title"></h1>
-            <button class="perfil" id="perfil" type="button"><img src="" alt="" srcset=""></button>
+        <nav class="menu-bar-mobile top-bar">
+            <div class="main-header">
+                <button class="button-icon" id="bars" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </button>
+                <h1 class="App-title">Nome do site</h1>
+            </div>
+            <button class="button-icon" id="theme-button" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+                </svg>
+            </button>
         </nav>
+        <div class="menu-top-bar" id="menu-top-bar">
+            <div class="list-menu" id="list_menu">
+                <div>
+                    <button class="button-icon" id="close-list-menu" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </button> 
+                    <ul class="list-links">
+                        <li><a href="">lorem10</a></li>
+                        <li><a href="">lorem10</a></li>
+                        <li><a href="">lorem10</a></li>
+                        <li><a href="">lorem10</a></li>
+                        <li><a href="">lorem10</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="glass-container" id="glass-container"></div>
+        </div>
+        <div class="theme-menu" id="theme-menu">
+            <ul class="theme-button-list">
+                <li><button disabled class="radio-theme-button">Claro</button></li>
+                <li><button class="radio-theme-button">Escuro</button></li>
+                <li><button class="radio-theme-button">Alto contraste</button></li>
+            </ul>
+        </div>
     </header>
     <main>
-        <button type="button">SOS</button>
-        <!-- TODO fazer o formulario de relatar dano -->
-        <button type="button">Relatar um dano</button>
-        <h2>Danos estruturais</h2>
-        <iframe src="" frameborder="0"></iframe>
-        <section>
-            <div class="damage-card">
-                <div class="type-alert"></div>
-                <p>lorem5</p>
+       <section class="hero-main-container">
+        <img src="https://picsum.photos/500/300" alt="" srcset="">
+        <div class="container-text-hero">
+            <h2>Lorem ipsum dolor sit amet consectetur. Quisque</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Metus pharetra sollicitudin magna ullamcorper. Proin bibendum fermentum sed vitae id nunc malesuada parturient.</p>
+            <button type="button" class="button">saiba mais</button>
+        </div>
+       </section>
+       <section class="tecnologias-container">
+        <h2>Nossas Tecnologias</h2>
+        <div class="flex-container-wrap">
+            <div class="card-container">
+                <img src="https://picsum.photos/230/270" alt="" srcset="">
+                <div class="card-text-container">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ipsum diam erat sit molestie eget viverra porttitor. Amet quam neque consequat volutpat velit suspendisse nulla.</p>
+                </div>
             </div>
-            <div class="damage-card">
-                <div class="type-alert"></div>
-                <p>lorem5</p>
+            <div class="card-container">
+                <img src="https://picsum.photos/230/270" alt="" srcset="">
+                <div class="card-text-container">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Ipsum diam erat sit molestie eget viverra porttitor. Amet quam neque consequat volutpat velit suspendisse nulla.</p>
+                </div>
             </div>
-            <div class="damage-card">
-                <div class="type-alert"></div>
-                <p>lorem5</p>
+        </div>
+        <p><span>Lorem ipsum dolor sit amet consectetur. Maecenas eu tincidunt risus enim. Feugiat vestibulum non volutpat tristique egestas nec consequat suspendisse.</span></p>
+       </section>
+       <section class="objetivos-container">
+        <h2>Objetivos</h2>
+        <div class="flex-container-wrap">
+            <div class="card-objetive">
+                <div class="num-card">
+                    <h3>1</h3>
+                </div>
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Ipsum diam erat sit molestie eget viverra porttitor. Amet quam neque consequat volutpat velit suspendisse nulla.</p>
             </div>
-            <div class="damage-card">
-                <div class="type-alert"></div>
-                <p>lorem5</p>
+            <div class="card-objetive">
+                <div class="num-card">
+                    <h3>2</h3>
+                </div>
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Ipsum diam erat sit molestie eget viverra porttitor. Amet quam neque consequat volutpat velit suspendisse nulla.</p>
             </div>
-            <div class="damage-card">
-                <div class="type-alert"></div>
-                <p>lorem5</p>
+            <div class="card-objetive">
+                <div class="num-card">
+                    <h3>3</h3>
+                </div>
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Ipsum diam erat sit molestie eget viverra porttitor. Amet quam neque consequat volutpat velit suspendisse nulla.</p>
             </div>
-        </section>
+            <div class="card-objetive">
+                <div class="num-card">
+                    <h3>4</h3>
+                </div>
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Ipsum diam erat sit molestie eget viverra porttitor. Amet quam neque consequat volutpat velit suspendisse nulla.</p>
+            </div>
+            <div class="card-objetive">
+                <div class="num-card">
+                    <h3>5</h3>
+                </div>
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Ipsum diam erat sit molestie eget viverra porttitor. Amet quam neque consequat volutpat velit suspendisse nulla.</p>
+            </div>
+        </div>
+       </section>
+        <section class="hero-main-container bg-third-color">
+          <div class="container-text-hero">
+            <h2>Lorem ipsum dolor sit amet consectetur. Quisque</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Metus pharetra sollicitudin magna ullamcorper. Proin bibendum fermentum sed vitae id nunc malesuada parturient.</p>
+            <p>Lorem ipsum dolor sit amet consectetur. Metus pharetra sollicitudin magna ullamcorper. Proin bibendum fermentum sed vitae id nunc malesuada parturient.</p>
+        </div>
+        <img src="https://picsum.photos/500/300" alt="" srcset="">
+       </section>
+       <section class="container-beneficios">
+        <h2>beneficios</h2>
+        <div class="flex-container-wrap">
+            <div class="card-beneficios">
+                <div class="header-beneficios">
+                    <img src="https://picsum.photos/81/81" alt="" srcset="">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur. Ipsum diam erat sit molestie eget viverra porttitor. Amet quam neque consequat volutpat velit suspendisse nulla.</p>
+            </div>
+            <div class="card-beneficios">
+                <div class="header-beneficios">
+                    <img src="https://picsum.photos/81/81" alt="" srcset="">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur. Ipsum diam erat sit molestie eget viverra porttitor. Amet quam neque consequat volutpat velit suspendisse nulla.</p>
+            </div>
+            <div class="card-beneficios">
+                <div class="header-beneficios">
+                    <img src="https://picsum.photos/81/81" alt="" srcset="">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur. Ipsum diam erat sit molestie eget viverra porttitor. Amet quam neque consequat volutpat velit suspendisse nulla.</p>
+            </div>
+        </div>
+       </section>
+       <section class="container-publico-alvo">
+        <h2>Publico Alvo </h2>
+        <div class="hero-main-container">
+            <div class="publico-alvo-text">
+            <div class="list-publico-alvo">
+            <div class="titulo-alvo">
+                <div class="border-container"></div>
+                <h3>Lorem Ipsum</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Metus pharetra sollicitudin magna ullamcorper. Proin bibendum fermentum sed vitae id nunc malesuada parturient.</p>
+        </div>
+        <div class="list-publico-alvo">
+            <div class="titulo-alvo">
+                <div class="border-container"></div>
+                <h3>Lorem Ipsum</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Metus pharetra sollicitudin magna ullamcorper. Proin bibendum fermentum sed vitae id nunc malesuada parturient.</p>
+        </div>
+        <div class="list-publico-alvo">
+            <div class="titulo-alvo">
+                <div class="border-container"></div>
+                <h3>Lorem Ipsum</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Metus pharetra sollicitudin magna ullamcorper. Proin bibendum fermentum sed vitae id nunc malesuada parturient.</p>
+        </div>
+        </div>
+        <img src="https://picsum.photos/500/300" alt="" srcset="">
+        </div>
+       </section>
     </main>
-    <!-- adicionar a tag A   -->
     <footer>
-        <nav class="bottom-bar">
-            <ul class="list-nav-buttons">
-                <li class="button-list"><button><img src="" alt="" srcset=""></button></li>
-                <li class="button-list"><button><img src="" alt="" srcset=""></button></li>
-                <li class="button-list"><button><img src="" alt="" srcset=""></button></li>
-            </ul>
-        </nav>
     </footer>
+    <script src="js/events-buttons.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
