@@ -80,10 +80,11 @@ img{
 }
 
 .menu-top-bar{
-    width: 100vw;
     display: flex;
+    position: fixed;
+    width: auto;
+    height: 100vh;
     pointer-events: none;
-    position: absolute;
     top: 0;
     left: -200px;
     transition: all 0.4s ease-out;
@@ -394,6 +395,7 @@ img{
 }
 
 .objetivos-container{
+    margin: 75px 0px;
     padding: 0px 90px;
     display: flex;
     flex-direction: column;
@@ -402,19 +404,19 @@ img{
 }
 
 .objetivos-container h2{
+    width: auto;
     text-align: center;
 }
 
 .card-objetive{
     display: flex;
+    width: 400px;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin: 20px 50px;
 }
 
 .card-objetive p{
-    width: 300px;
+    width: auto;
 }
 
 .num-card{
@@ -460,13 +462,45 @@ img{
 }
 
 .card-beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: var(--primary-color);
     border-radius: var(--border-radius);
     width: 350px;
     margin: 40px;
     padding: 20px;
-    text-align: center;
     color: white;
+}
+
+.header-beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card-beneficios h3{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.card-beneficios p, h3{
+    margin-bottom: 20px;
+}
+
+.beneficios-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: 4px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    border-radius: 100%;
 }
 
 .container-publico-alvo{

@@ -24,7 +24,7 @@ function open_list_menu(){
   menu_top_bar.style.pointerEvents = "all"
   menu_top_bar.style.left = "0"
   menu_top_bar.style.opacity = "100"
-  glass_container.style.display = "block"
+  // glass_container.style.display = "block"
   console.log("clico")
 }
 
@@ -33,7 +33,7 @@ function close_list_menu(){
     menu_top_bar.style.pointerEvents = "none"
     menu_top_bar.style.opacity = "0"
     menu_top_bar.display = "none"
-    glass_container.style.display = "none"
+    // glass_container.style.display = "none"
 }
 
 function open_theme_popup(){
