@@ -44,6 +44,10 @@ span{
     font-size: 12px;
 }
 
+img{
+    border-radius: var(--border-radius);
+}
+
 .line{
     background-color: var(--bg-line);
 }
@@ -305,8 +309,8 @@ span{
 }
 
 .hero-main-container{
-    padding: 50px;
     display: flex;
+    padding-bottom: 50px;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -371,13 +375,17 @@ span{
     padding: 20px;
     gap: 40px;
     margin: 20px;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     box-shadow:  var(--box-shadow);
 }
 
 .card-text-container{
     display: block;
     width: 250px;
+}
+
+.card-text-container h3{
+    border-bottom: #5E4EF5 3px solid;
 }
 
 .tecnologias-container span{
@@ -412,16 +420,26 @@ span{
 .num-card{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
 }
 
-.num-card h3{
+.circle{
+    display: flex;
     width: 30px;
     height: 30px;
+    justify-content: center;
+    align-items: center;
     border-radius: 100%;
-    border: 1px solid black;
+    border: 3px solid black;
     text-align: center;
+    margin: 5px;
+}
+
+.circle h3{
+    margin: 0;
+    padding: 0;
 }
 
 .bg-third-color{
@@ -461,11 +479,13 @@ span{
 }
 
 .container-publico-alvo h2{
+    margin: 18px 0px;
     text-align: center;
 }
 
 .publico-alvo-text{
     width: 540px;
+    margin: 0px 40px;
 }
 
 .titulo-alvo{
