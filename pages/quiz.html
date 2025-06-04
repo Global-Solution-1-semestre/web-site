@@ -64,7 +64,6 @@
         <form id="quiz-form" class="container-quiz">
             <div class="container-question" id="ex1">
                 <h3 class="form-title">1. O que caracteriza uma chuva como "torrencial"?</h3>
-                <div id="error-1"></div>
                 <div class="question-quiz">
                     <input type="radio" name="1" id="1A"><label for="1A">a) Duração de mais de 3 horas</label>
                 </div>
@@ -80,7 +79,6 @@
             </div>
             <div class="container-question" id="ex2">
                 <h3 class="form-title">2. Qual é a principal causa das enchentes urbanas?</h3>
-                <div id="error-2"></div>
                 <div class="question-quiz">
                     <input type="radio" name="2" id="2A"><label for="2A">a) Duração de mais de 3 horas</label>
                 </div>
@@ -96,7 +94,6 @@
             </div>
             <div class="container-question" id="ex3">
                 <h3 class="form-title">3. O que significa "tempo de recorrência" em eventos de chuva?</h3>
-                <div id="error-3"></div>
                 <div class="question-quiz">
                     <input type="radio" name="3" id="3A" required><label for="3A">a) A frequência com que chove em uma semana</label>
                 </div>
@@ -112,7 +109,6 @@
             </div>
             <div class="container-question" id="ex4">
                 <h3 class="form-title">4. Qual instrumento meteorológico é utilizado para medir a precipitação?</h3>
-                <div id="error-4"></div>
                 <div class="question-quiz">
                     <input type="radio" name="4" id="4A" required><label for="4A">a) Barômetro</label>
                 </div>
@@ -128,7 +124,6 @@
             </div>
             <div class="container-question" id="ex5">
                 <h3 class="form-title">5. Qual é a relação entre o fenômeno El Niño e chuvas intensas no sul do Brasil?</h3>
-                <div id="error-5"></div>
                 <div class="question-quiz">
                     <input type="radio" name="5" id="5A" required><label for="5A">a) El Niño diminui a temperatura e reduz chuvas</label>
                 </div>
@@ -225,6 +220,10 @@
             <button type="button" class="button sub-button">Voltar a tela incial</button>
             <button type="submit" class="button">Entregar</button>
         </form>
+        <div class="resultado" id="resultado" style="display: none;">
+            <h3>Parabens você tiro <span id="nota"></span>/10</h3>
+            <p>se quiser refazer o quiz recarregue a pagina</p>
+        </div>
     </main>
     <footer>
 

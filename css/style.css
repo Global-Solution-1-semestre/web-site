@@ -593,3 +593,20 @@ footer{
     align-items: center;
     margin: 8px;
 }
+
+.resultado{
+    margin: 25px;
+    display: block;
+    font-size: 24px;
+}
+
+.resultado span{
+    font-weight: bolder;
+    font-size: 24px;
+    color: #4E73F5;
+}
+
+.resultado h3 {
+    margin: 0;
+    padding: 0;
+}
