@@ -556,6 +556,12 @@ footer{
 }
 
 /* quiz.html */
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 20%;
+}
 .container-quiz-header{
     display: block;
     padding: 12px;

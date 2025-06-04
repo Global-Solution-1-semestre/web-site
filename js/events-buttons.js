@@ -8,10 +8,11 @@ let isThemeOn = false
 
 // event listener
 window.addEventListener('click', function(event) {
-    let isClosed = event.target.closest('#theme-menu')
+  let isClosed = event.target.closest('#theme-menu')
   if (!isClosed && isThemeOn) {
     theme_popup.style.display = "none";
   }
+  console.log("Hello world")
 })
 list_top_bar.addEventListener("click", open_list_menu)
 close_list_menu_btn.addEventListener("click", close_list_menu)
